@@ -1,5 +1,5 @@
 {
-    "name": "ra-language-czech",
+    "name": "@nobodyguy/ra-language-czech",
     "version": "4.4.4",
     "description": "Czech messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "scripts": {
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/binao/ra-language-czech.git"
+        "url": "git+https://github.com/nobodyguy/ra-language-czech.git"
     },
     "files": [
         "*.md",
@@ -33,9 +33,12 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/binao/ra-language-czech/issues"
+        "url": "https://github.com/nobodyguy/ra-language-czech/issues"
     },
-    "homepage": "https://github.com/binao/ra-language-czech#readme",
+    "homepage": "https://github.com/nobodyguy/ra-language-czech#readme",
+    "publishConfig": {
+        "access": "public"
+    },
     "dependencies": {
         "ra-core": "^4.4.4"
     }
