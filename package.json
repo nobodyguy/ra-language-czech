@@ -1,6 +1,6 @@
 {
     "name": "@nobodyguy/ra-language-czech",
-    "version": "4.4.4",
+    "version": "4.4.4-HF1",
     "description": "Czech messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "scripts": {
         "prepack": "npm run build",

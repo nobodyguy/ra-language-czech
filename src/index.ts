@@ -74,12 +74,12 @@ const czechMessages: TranslationMessages = {
         },
         message: {
             about: 'O',
-            are_you_sure: 'Jste si jistý?',
-            bulk_delete_content: 'Jste si jistý, že chcete smazat %{name}? |||| Jste si jistý, že chcete smazat tyto %{smart_count} položky? |||| Jste si jistý, že chcete smazat těchto %{smart_count} položek?',
+            are_you_sure: 'Jste si jistí?',
+            bulk_delete_content: 'Jste si jistí, že chcete smazat %{name}? |||| Jste si jistí, že chcete smazat tyto %{smart_count} položky? |||| Jste si jistí, že chcete smazat těchto %{smart_count} položek?',
             bulk_delete_title: 'Smazat %{name} |||| Smazat %{smart_count} %{name} položky |||| Smazat %{smart_count} %{name} položek',
             bulk_update_content: "Hromadně změnit obsah",
             bulk_update_title: "Hromadně změnit titulek",
-            delete_content: 'Jste si jistý, že chcete smazat tuto položku?',
+            delete_content: 'Jste si jistí, že chcete smazat tuto položku?',
             delete_title: 'Smazat %{name} #%{id}',
             details: 'Podrobnosti',
             error: 'Nastala chyba a váš požadavek nemohl být zpracován.',
@@ -98,8 +98,8 @@ const czechMessages: TranslationMessages = {
             no_more_results: 'Stránka číslo %{page} je mimo rozsah. Zkuste předchozí.',
             no_results: 'Žádné výsledky nenalezeny',
             page: 'Jít na stránku %{page}',
-            page_out_from_begin: 'Nelze se přepnout před stranu 1',
-            page_out_from_end: 'Nelze se přepnout za poslední stranou',
+            page_out_from_begin: 'Nelze se přepnout před první stránku',
+            page_out_from_end: 'Nelze se přepnout za poslední stránkou',
             page_out_of_boundaries: 'Stránka číslo %{page} je mimo rozsah',
             page_range_info: '%{offsetBegin}-%{offsetEnd} z %{total}',
             page_rows_per_page: 'Záznamů na stránku: ',
@@ -112,7 +112,7 @@ const czechMessages: TranslationMessages = {
             canceled: 'Akce zrušena',
             created: 'Položka vytvořena',
             data_provider_error:
-                'dataProvider chyba. Pro více detailů zkontrolujte konzoli prohlížeče.',
+                'Chyba dataProvider komponenty. Pro více detailů zkontrolujte konzoli prohlížeče.',
             deleted: 'Položka smazána |||| %{smart_count} položky smazány |||| %{smart_count} položek smazáno',
             http_error: 'Chyba komunikace serveru',
             i18n_error: 'Nelze načíst překlady pro vybraný jazyk',
@@ -123,7 +123,7 @@ const czechMessages: TranslationMessages = {
         },
         page: {
             create: 'Vytvořit %{name}',
-            dashboard: 'Dashboard',
+            dashboard: 'Nástěnka',
             edit: '%{name} #%{id}',
             empty: 'Zatím žádný %{name}',
             error: 'Něco se pokazilo',
@@ -158,7 +158,7 @@ const czechMessages: TranslationMessages = {
             remove_label_with_name: 'Odstranit dotaz "%{name}"',
             remove_dialog_title: 'Odstranit uložený dotaz?',
             remove_message:
-                'Jste si jistí že chcete odstranit tuto položku z vašeho seznamu uložených dotazů?',
+                'Jste si jistí, že chcete odstranit tuto položku z vašeho seznamu uložených dotazů?',
             help: 'Vyfiltrovat seznam a uložit tento dotaz na později',
         },
         configurable: {
