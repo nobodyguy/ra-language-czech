@@ -31,6 +31,7 @@ const czechMessages: TranslationMessages = {
             save: 'Uložit',
             search: 'Hledat',
             select_all: "Vybrat vše",
+            select_columns: "Sloupce",
             select_row: "Vybrat řádek",
             show: 'Zobrazit',
             sort: 'Seřadit',
