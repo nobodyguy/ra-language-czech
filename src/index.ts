@@ -165,6 +165,9 @@ const czechMessages: TranslationMessages = {
         configurable: {
             customize: 'Přizpůsobit',
             configureMode: 'Konfigurovat tuto stránku',
+            Datagrid: {
+                unlabeled: 'Neoznačený sloupec #%{column}',
+            },
             inspector: {
                 title: 'Inspektor',
                 content: 'Pro konfiguraci UI elementů aplikace na ně najeďte myší',
